@@ -38,7 +38,8 @@ KYM references the NANDA infrastructure agents as examples of agent-to-agent (A2
 ## Syncing with Upstream
 
 ```bash
-# One-time setup (already done):
+# One-time setup (skip if upstream remote already exists):
+# Check with: git remote -v
 git remote add upstream https://github.com/projnanda/nanda-infrastructure.git
 
 # Sync upstream changes into dev:
